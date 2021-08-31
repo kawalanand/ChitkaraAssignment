@@ -1,0 +1,80 @@
+body
+{
+	font-family: "Trirong", serif;
+}
+.inline
+{
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+  	margin-bottom: 8px;
+}
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+li
+{
+	width: 20%;
+	position: relative;
+    list-style: none;
+    height: 45px;
+    cursor: default;
+    background: #f2f2f2;
+    line-height: 45px;
+    padding: 0 15px;
+    border-radius: 3px;
+    overflow: hidden;
+    border-color:black;
+}
+ul
+{
+	padding-left:0px;
+}
+
+.fa-plus, .fa-arrow-up, .fa-arrow-down, .fa-trash, .fa-edit, .num
+{
+	height: 45px;
+	width:45px;
+	border-color:#f2f2f2;
+	border: none;
+}
+h1
+{
+	margin-right:20px; 
+}
+img
+{
+	max-width: 100%;
+  	height: auto;
+	height: 40px;
+	width: 40px; 
+	border-radius: 5px;
+}
+.bottom
+{
+	position: fixed;
+	bottom: 0;
+}
+.pending
+{
+	position fixed;
+	bottom:5;
+}
+
+
+/*@keyframes list-animate
+{
+	from
+	{
+		margin-right: 100%;
+	}
+	to
+	{
+		margin-right: 40px;
+	}
+}
+*/
