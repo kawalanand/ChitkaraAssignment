@@ -1,0 +1,33 @@
+.list
+{
+    display: flex;
+    margin: 7px;
+}
+.list div
+{
+    height:45px;
+    max-width: 65%;
+    min-width: 65%;
+    padding-left: 35px;
+    background: #f2f2f2;
+}
+.list p
+{
+    font-size: 20px;
+    margin:8px;
+}
+.list button
+{
+    width: 50px;
+    height: 45px;
+    border: none;
+    color: #fff;
+    margin-left: 5px;
+    font-size: 21px;
+    outline: none;
+    background: #e74c3c;;
+    cursor: pointer;
+    border-radius: 3px;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
